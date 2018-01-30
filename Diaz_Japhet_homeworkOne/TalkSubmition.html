@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Talk Submission</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav>
+    <a id="home" href="index.html">HOME</a>
+    <a id="about" href="#aboutSection">ABOUT</a>
+    <a id="service" href="#SubmitTalkSection">SUBMIT A TALK</a>
+    <a id="contact" href="#contactSection">CONTACT</a>
+    <a id="portfolio" href="#pastSpeakersSection">CODE OF CONDUCT</a>
+</nav>
+
+<div id="homeSection" class="sect sectOne">
+</div>
+<div id="aboutSection" class="talksubmitionSection">
+    <h2>Speaker Presentation Submission</h2>
+    <form>
+        Presentation Title:<br>
+        <input type="text" name="title" placeholder="Presentation Title"><br>
+        <br>Description:
+        <br><textarea rows="4" cols="50" name="presentationdescription" placeholder="Presentation Description"></textarea><br>
+        <br>Type of presentation:
+        <select>
+        <option value="Workshop:4 hrs">Workshop(4hrs)</option>
+        <option value="Session:1 hr">Session(1hr)</option>
+    </select>
+        <button class="btn-sweet" type="button" onclick="sweet8()">SUBMIT</button>
+    </form>
+</div>
+
+<div id="footer">&copy;2017 Japhet Diaz</div>
+
+
+
+
+
+
+
+
+<script src="lib/jquery-3.2.1.min.js"></script>
+<script src="js/sweetalert2.all.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

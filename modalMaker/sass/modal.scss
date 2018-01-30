@@ -1,0 +1,62 @@
+.modal {
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(0,0,0,0.5);
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  display: flex;
+
+  .clickDiv {
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .formalHolder {
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #fff;
+    margin: auto;
+    padding: 50px;
+    position: relative;
+
+
+
+    h1{
+      text-align: center;
+    }
+    form {
+      label{
+        display: block;
+      }
+    }
+    input {
+      display: block;
+      height: 50px;
+      width: 350px;
+      margin-bottom: 40px;
+      font-size: 120%;
+      border-radius:5px;
+      border-style:solid;
+    }
+
+
+    .signInSubmit {
+      width: 150px;
+      background-color:gray;
+      color: #ffffff;
+      padding: 20px;
+      border-radius:5px;
+      text-align: center;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+  }
+  .closeBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+}

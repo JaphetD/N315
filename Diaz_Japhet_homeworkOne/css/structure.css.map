@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,UAAW;EACT,MAAM,EAAE,IAAI;;AAGd,yBAA0B;EACxB,aAAa,EAAE,IAAI",
+"sources": ["../sass/structure.scss"],
+"names": [],
+"file": "structure.css"
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 550px) and (min-width: 300px) {
+  .btn-sweet {
+    height: 25px;
+    width: 200px; } }
+@media screen and (max-height: 500px) and (min-height: 300px) {
+  p {
+    width: 100%; } }
+@media screen and (max-width: 550px) and (min-width: 300px) {
+  a {
+    font-size: 11px; } }
+
+/*# sourceMappingURL=mediaquery.css.map */

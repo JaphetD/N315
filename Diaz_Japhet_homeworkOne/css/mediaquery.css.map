@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,2DAA4D;EACxD,UAAU;IACR,MAAM,EAAC,IAAI;IACX,KAAK,EAAC,KAAK;AAIjB,6DAA8D;EAC5D,CAAC;IACC,KAAK,EAAE,IAAI;AAIf,2DAA4D;EAC1D,CAAE;IACA,SAAS,EAAE,IAAI",
+"sources": ["../sass/mediaquery.scss"],
+"names": [],
+"file": "mediaquery.css"
+}

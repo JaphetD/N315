@@ -1,0 +1,123 @@
+.sect {
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.subSection{
+  height:50%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  padding-top:100px;
+
+}
+
+.sectOne{
+  background-image:url("../images/img1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50%;
+}
+
+.loginSection {
+  height: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.signupSection {
+  height: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.speakersignupSection{
+  height: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.talksubmitionSection{
+  height: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h2{
+  color:black;
+  padding-left: 20px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+p {
+  display: flex;
+  color:black;
+  margin: auto;
+  width: 75%;
+  font-family:"Arial";
+  line-height:1.8;
+}
+
+.btn-sweet{
+  display: flex;
+  justify-content: center;
+  background: #3498db;
+  border-radius: 3px;
+  color: white;
+  height: 40px;
+  width: 200px;
+  font-size: 13px;
+  border: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.signIn{
+  width: 100px;
+  margin:auto;
+}
+
+
+.sectTwo{
+  background-color: lightgray;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.sectThree{
+  background-color: lightgray;
+  display:flex;
+  flex-direction: column;
+  height:50%;
+  padding-top: 100px;
+}
+
+.sectFour{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  padding-top: 20px;
+}
+
+iframe{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
