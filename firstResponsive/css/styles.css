@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+nav {
+    /*You don't need width but you need height when applying display flex*/
+    /*However the moment you add postion:fixed you need to add a width*/
+    height: 100px;
+    background-color: rebeccapurple;
+    display: flex;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+}
+
+nav .hamburger {
+    background-color: green;
+}
+
+
+nav span {
+    margin: auto;
+}
+
+nav span .hamburger {
+    display: none;
+}
+
+nav span a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav .help {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+@media all and (max-width: 800px){
+
+    nav span{
+        display: none;
+    }
+
+    nav .hamburger {
+        display:block;
+        margin: auto 0 auto 20px;
+    }
+
+    nav .hamburger:hover ~ .help span {
+        background-color: red;
+        display: block;
+        flex-direction: column;
+    }
+
+}
