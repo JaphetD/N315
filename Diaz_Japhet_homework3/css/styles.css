@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+.fullSection {
+    min-height: 100%;
+    display:flex;
+}
+
+.fullSection2 {
+    min-height: 100%;
+    display:flex;
+}
+
+.Div1 {
+    background-color: purple;
+    width: 50%;
+    flex-direction: column;
+}
+
+.Div2 {
+    display: flex;
+    background-color:gray;
+    width: 50%;
+    flex-direction: column;
+}
+
+.smallDiv1{
+    width: 25%;
+    height:10%;
+    background-color: #000;
+    margin: auto;
+}
+
+.smallDiv2{
+    width: 25%;
+    height:10%;
+    background-color:rosybrown;
+    margin: auto;
+}
+
+.smallDiv3 {
+    width: 25%;
+    height:10%;
+    background-color:green;
+    margin: auto;
+}
+
+.smallDiv4 {
+    width: 25%;
+    height:10%;
+    background-color:darkred;
+    margin: auto;
+}
+
+@media all and (max-width: 980px) {
+
+    .Div2{
+        flex-direction: row-reverse;
+    }
+
+    .fullSection{
+        height: 50%;
+        flex-direction:row;
+    }
+
+   .Div1{
+       flex-direction: row-reverse;
+   }
+
+   .fullSection2 {
+       flex-direction: column;
+   }
+
+   .smallDiv3 {
+       float: right;
+   }
+
+   .smallDiv4 {
+       width: 50%;
+       flex-direction: column;
+   }
+
+
+}
