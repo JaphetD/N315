@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect To Firebase</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+
+
+<button class="add">ADD SPEAKER</button>
+<button class="update">UPDATE SPEAKER</button>
+<button class="delete">DELETE SPEAKER</button>
+
+
+<form>
+    <label>First Name:</label>
+    <input type="text" class="fName" name="fName">
+    <label>Last Name:</label>
+    <input type="text" class="lName" name="lName">
+    <label>Email:</label>
+    <input type="text" class="email" name="email">
+    <label>Password:</label>
+    <input type="password" class="password" name="password">
+    <br>
+    <input class="submit" type="submit" value="submit">
+</form><br>
+
+<form class="loginForm">
+    <label>Email:</label>
+    <input type="text" class="email" name="email">
+    <label>Password:</label>
+    <input type="password" class="password" name="password">
+    <input class="loginSubmit" type="submit" value="submit">
+</form>
+
+<p></p>
+<p></p>
+<button class="logout">Logout</button>
+<p></p>
+<p></p>
+<button class="google">Logging in</button>
+
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script src="lib/jquery-3.2.1.min.js"></script>
+<script src="providers/firebaseprovider.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>

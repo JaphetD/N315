@@ -1,0 +1,27 @@
+.topSection {
+  background-color: $mediumGray;
+  display: flex;
+
+
+  .callout {
+    margin: auto;
+    text-align: center;
+    color: $whiteText;
+
+    .sym {
+      font-size: 8em;
+    }
+
+    p {
+      text-align: center;
+      max-width: 300px;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .callout {
+      width: 300px;
+    }
+  }
+}

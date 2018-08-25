@@ -68,6 +68,13 @@ a:hover {
   justify-content: center;
   height: 50%; }
 
+.buttoncontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
 .loginSection {
   height: 100%;
   background-color: lightgray;
@@ -212,17 +219,21 @@ iframe {
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  overflow-y: auto; }
   .modal .clickDiv {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5); }
+  .modal .modalText {
+    text-align: center; }
   .modal .formalHolder {
     min-height: 100px;
     min-width: 100px;
     background-color: #fff;
     margin: auto;
     padding: 50px;
-    position: relative; }
+    position: relative;
+    overflow-y: auto; }
     .modal .formalHolder h1 {
       text-align: center; }
     .modal .formalHolder form label {
@@ -253,18 +264,33 @@ iframe {
 form {
   padding-left: 20px; }
 
-@media screen and (max-width: 550px) and (min-width: 300px) {
+@media screen and (max-width: 800px) and (min-width: 429px) {
   .btn-sweet {
     height: 25px;
-    width: 200px; } }
+    width: 100px;
+    font-size: 11px; } }
 
 @media screen and (max-height: 500px) and (min-height: 300px) {
   p {
     width: 100%; } }
 
-@media screen and (max-width: 550px) and (min-width: 300px) {
+@media screen and (max-width: 800px) and (min-width: 429px) {
   a {
     font-size: 11px; } }
+
+@media screen and (max-width: 800px) and (min-width: 429px) {
+  .sect {
+    font-size: 13px; } }
+
+@media screen and (max-width: 800px) and (min-width: 429px) {
+  .sectTwo {
+    font-size: 13px; } }
+
+@media screen and (max-width: 800px) and (min-width: 429px) {
+  .subSection {
+    font-size: 13px;
+    width: 100%;
+    height: 65%; } }
 
 #footer {
   background-color: rgba(0, 0, 0, 0.8);

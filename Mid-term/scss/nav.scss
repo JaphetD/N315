@@ -1,0 +1,52 @@
+nav {
+  background-color: rgba(0,0,0,0.5);
+  min-height: 60px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  color: $whiteText;
+  align-items: center;
+  font-family: RalewayBold;
+
+  .logo {
+    text-align: center;
+    width: 30%;
+  }
+
+  .links {
+    width: 40%;
+    display: flex;
+
+    a {
+      margin: auto;
+      text-decoration: none;
+      color: $whiteText;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .social {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+     .icon{
+       margin-right: 10px;
+     }
+
+    .user {
+      cursor: pointer;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .links{
+      display:none;
+    }
+  }
+
+}

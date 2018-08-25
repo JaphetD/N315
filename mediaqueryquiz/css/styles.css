@@ -1,0 +1,69 @@
+/*Normal Resets below*/
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom:16px;
+}
+
+
+/*Now we're giving the parent a height a background color*/
+.main {
+    background-color: bisque;
+    height: 100%;
+}
+
+/*now we're giving the child divs a background color and height and width*/
+.one {
+    background-color: chocolate;
+    height: 50%;
+    width: 100%;
+}
+
+.two {
+    background-color: rebeccapurple;
+    height: 50%;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px){
+    /*It was flex-direction row instead of column*/
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one{
+        height: 100%;
+    }
+
+    .two{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    /*You do not need to repeat display flex to the main here because main has display flex above,   so you can still add flex properties below*/
+    .main{
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+    }
+
+    .one{
+        height: 40%;
+    }
+
+    .two{
+        height: 40%;
+    }
+}
+

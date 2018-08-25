@@ -23,6 +23,11 @@
   height: 50%;
 }
 
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
 .loginSection {
   height: 100%;
   background-color: lightgray;

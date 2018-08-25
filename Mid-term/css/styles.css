@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: RalewayBold;
+  src: url("fonts/Raleway-Bold.ttf"); }
+
+@font-face {
+  font-family: RalewayExtraBold;
+  src: url("fonts/Raleway-Bold.ttf"); }
+
+@font-face {
+  font-family: RalewayLight;
+  src: url("fonts/Raleway-Light.ttf"); }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 16px;
+  font-family: RalewayBold; }
+
+h1 {
+  font-size: xx-large; }
+
+p {
+  margin-bottom: 16px;
+  font-family: RalewayLight; }
+
+html, body {
+  height: 100%; }
+
+section {
+  min-height: 100%; }
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  color: #ffffff;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: RalewayBold; }
+  nav .logo {
+    text-align: center;
+    width: 30%; }
+  nav .links {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    nav .links a {
+      margin: auto;
+      text-decoration: none;
+      color: #ffffff; }
+      nav .links a:hover {
+        text-decoration: underline; }
+  nav .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    nav .social .icon {
+      margin-right: 10px; }
+    nav .social .user {
+      cursor: pointer; }
+  @media screen and (max-width: 800px) {
+    nav .links {
+      display: none; } }
+
+.topSection {
+  background-color: #505153;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .topSection .callout {
+    margin: auto;
+    text-align: center;
+    color: #ffffff; }
+    .topSection .callout .sym {
+      font-size: 8em; }
+    .topSection .callout p {
+      text-align: center;
+      max-width: 300px; }
+  @media screen and (max-width: 800px) {
+    .topSection .callout {
+      width: 300px; } }
+
+.secondSection {
+  background-color: #f9f9f9;
+  padding: 120px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .secondSection h1 {
+    margin: 0 auto 16px auto;
+    text-align: center;
+    max-width: 40%; }
+  .secondSection h3 {
+    text-align: center; }
+  .secondSection .cols {
+    height: 100%;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .secondSection .cols p {
+      padding: 20px; }
+  .secondSection .readMoreButton {
+    width: 150px;
+    margin: 50px auto 0 auto; }
+    .secondSection .readMoreButton .blueButton {
+      border-radius: 10px;
+      padding: 10px 20px;
+      color: #ffffff;
+      background-color: #2e71f2; }
+  @media screen and (max-width: 800px) {
+    .secondSection .cols {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .secondSection .readMoreButton {
+      padding-right: 800px; } }
+  .secondSection h1 {
+    max-width: 55%; }
+  .secondSection h3 {
+    max-width: 90%; }
+
+.thirdSection {
+  padding: 120px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .thirdSection h1 {
+    text-align: center; }
+  .thirdSection .subText {
+    margin: 0 auto;
+    text-align: center;
+    width: 320px; }
+  .thirdSection .circleArea {
+    margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .thirdSection .circleArea .leftBox {
+      width: 200px;
+      height: 400px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .thirdSection .circleArea .midBox {
+      width: 200px;
+      height: 400px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .thirdSection .circleArea .rightBox {
+      width: 200px;
+      height: 400px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .thirdSection .circleArea .circle {
+      background-color: #666666;
+      height: 150px;
+      width: 150px;
+      border-radius: 150px;
+      margin-bottom: 30px; }
+    .thirdSection .circleArea h4 {
+      text-align: center;
+      margin: 10px 0 0 0; }
+    .thirdSection .circleArea p {
+      text-align: center; }
+  @media screen and (max-width: 800px) {
+    .thirdSection .circleArea {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      height: 100%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+.modalHolder {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.51);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none; }
+  .modalHolder .modal {
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    position: relative; }
+    .modalHolder .modal .close {
+      position: absolute;
+      color: #000;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      font-family: RalewayExtraBold; }

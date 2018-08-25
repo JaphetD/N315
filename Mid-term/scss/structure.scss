@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: RalewayBold;
+  src: url("fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: RalewayExtraBold;
+  src: url("fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: RalewayLight;
+  src: url("fonts/Raleway-Light.ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 16px;
+  font-family: RalewayBold;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+p {
+  margin-bottom: 16px;
+  font-family: RalewayLight;
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+section {
+  min-height: 100%;
+}

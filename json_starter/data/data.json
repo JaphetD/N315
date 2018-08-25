@@ -1,0 +1,35 @@
+{
+  "Speakers": [
+    {
+      "name": "Jasmine",
+      "twitter": "_Jasmine",
+      "business": "IUPUI",
+      "Topics": [
+        {
+          "topicName": "Ionic and Me",
+          "type": "workshop",
+          "category": "development"
+        },
+        {
+          "topicName": "Freelance and Me",
+          "type": "talk",
+          "category": "business",
+          "description": "This is a very short description."
+        }
+      ]
+    },
+    {
+      "name": "Todd Shelton",
+      "twitter": "_toddshelton",
+      "business": "Salesforce",
+      "Topics": []
+    },
+    {
+      "name": "Julia Jones",
+      "twitter": "_Julia",
+      "business": "JJones",
+      "Topics": []
+    }
+  ]
+}
+

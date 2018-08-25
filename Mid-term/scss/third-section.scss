@@ -1,0 +1,72 @@
+.thirdSection {
+  padding: 120px;
+  box-sizing: border-box;
+
+  h1 {
+    text-align: center;
+  }
+
+  .subText {
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+  }
+
+  .circleArea {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+    .leftBox {
+      width: 200px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //justify-content: center;
+    }
+
+    .midBox {
+      width: 200px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .rightBox {
+      width: 200px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .circle {
+      background-color: $darkGray;
+      height: 150px;
+      width: 150px;
+      border-radius: 150px;
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      text-align: center;
+      margin: 10px 0 0 0;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    .circleArea{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
